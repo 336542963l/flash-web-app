@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/zhangping99/myflaskapp.git', branch: 'main'
+                git url: 'https://github.com/336542963l/flash-web-app.git', branch: 'master'
             }
         }
         stage('Fix pip') {
